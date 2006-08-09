@@ -1,0 +1,31 @@
+<!DOCTYPE rdf:RDF SYSTEM "tpm.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:TPM="http://texlive.dante.de/">
+  <rdf:Description about="http://dl.contextgarden.net/modules/t-bnf.zip">
+    <TPM:Name>t-bnf</TPM:Name>
+    <TPM:Type>Package</TPM:Type>
+    <TPM:Date>2006/08/09 13:35:10</TPM:Date>
+    <TPM:Version>2006.08.09</TPM:Version>
+    <TPM:Creator>now</TPM:Creator>
+    <TPM:Title>ConTeXt BNF Grammars</TPM:Title>
+    <TPM:Description>
+      The t-bnf module provides a way to easily write BNF grammars in ConTeXt
+      documents.
+    </TPM:Description>
+    <TPM:Author>Nikolai Weibull</TPM:Author>
+    <TPM:Size>289490</TPM:Size>
+    <TPM:Build/>
+    <TPM:RunFiles size="7585">
+tex/context/third/bnf/t-bnf.tex
+tpm/t-bnf.tpm
+    </TPM:RunFiles>
+    <TPM:DocFiles size="281905">
+doc/context/third/bnf/NEWS
+doc/context/third/bnf/README
+doc/context/third/bnf/t-bnf.pdf
+    </TPM:DocFiles>
+    <TPM:Requires>
+      <TPM:Package name="context"/>
+    </TPM:Requires>
+    <TPM:Provides>Package/t-bnf</TPM:Provides>
+  </rdf:Description>
+</rdf:RDF>
